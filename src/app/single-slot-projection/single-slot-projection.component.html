@@ -1,5 +1,29 @@
-<h4>Single slot content projection</h4>
+<app-page-header>Single Slot Content Projection</app-page-header>
 
-<app-card>
-    Card Header from the parent component
-</app-card>
+<div class="page-description">
+    <div class="row mt-5">
+        <div class="col-4">
+            <app-card>First card header</app-card>
+        </div>
+        <div class="col-4">
+            <app-card>Second card header</app-card>
+        </div>
+        <div class="col-4">
+            <app-card>Third card header</app-card>
+        </div>
+    </div>
+    
+    <div class="mt-5">
+        Above are 3 cards, each with a different header. But the body text remains the same. 
+        The 3 cards are reused components.
+    
+        The code of the card component:
+        <app-code-display [code]="code"></app-code-display>
+
+        <p class="mt-4 mb-0">
+            The code of the parent component:
+        </p>
+        
+        <app-code-display [code]="parentCode"></app-code-display>
+    </div>
+</div>

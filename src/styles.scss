@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Nunito:wght@400;500;700&display=swap');
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.page-description {
+    width: 60%;
+    margin: auto;
+}
