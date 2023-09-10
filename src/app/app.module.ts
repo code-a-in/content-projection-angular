@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { SingleSlotProjectionComponent } from './single-slot-projection/single-slot-projection.component';
 import { CodeDisplayComponent } from './shared/code-display/code-display.component';
 import { SingleSlotExampleComponent } from './blog-examples/single-slot-example/single-slot-example.component';
+import { MultiSlotCardComponent } from './shared/multi-slot-card/multi-slot-card.component';
+import { MultiSlotProjectionComponent } from './multi-slot-projection/multi-slot-projection.component';
+import { MultiSlotExampleComponent } from './blog-examples/multi-slot-example/multi-slot-example.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { SingleSlotExampleComponent } from './blog-examples/single-slot-example/
     HomeComponent,
     SingleSlotProjectionComponent,
     CodeDisplayComponent,
-    SingleSlotExampleComponent
+    SingleSlotExampleComponent,
+    MultiSlotCardComponent,
+    MultiSlotProjectionComponent,
+    MultiSlotExampleComponent
   ],
   imports: [
     BrowserModule,

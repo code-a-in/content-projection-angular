@@ -10,6 +10,10 @@ export class HomeComponent {
     {
       title: "Single slot content projection",
       path: "/single-slot-projection"
+    },
+    {
+      title: "Multi slot content projection",
+      path: "/multi-slot-projection"
     }
   ];
 }

@@ -1,0 +1,37 @@
+<app-page-header>Multi Slot Content Projection</app-page-header>
+
+<div class="page-description">
+    <div class="row mt-5">
+        <div class="col-6">
+            <app-multi-slot-card>
+                <ng-container header>The header</ng-container>
+                <ng-container body>I am the body of the card</ng-container>
+                <div class="d-flex align-items-center" footer>
+                    <button class="btn btn-primary me-2">Done</button>
+                    <button class="btn btn-danger">Cancel</button>
+                </div>
+            </app-multi-slot-card>
+        </div>
+        <div class="col-6">
+            <app-multi-slot-card>
+                <ng-container header>Second card</ng-container>
+                <ng-container body>Body in the second card</ng-container>
+                <ng-container footer>The footer content</ng-container>
+            </app-multi-slot-card>
+        </div>
+    </div>
+    
+    <div class="mt-5">
+        Above are 2 cards, each with a different header, body and footer. 
+        The 3 cards are reused components.
+    
+        The code of the card component:
+        <app-code-display [code]="code"></app-code-display>
+
+        <p class="mt-4 mb-0">
+            The code of the parent component:
+        </p>
+        
+        <app-code-display [code]="parentCode"></app-code-display>
+    </div>
+</div>
