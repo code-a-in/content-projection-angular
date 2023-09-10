@@ -10,6 +10,7 @@ import { NavLinkComponent } from './shared/nav-link/nav-link.component';
 import { HomeComponent } from './home/home.component';
 import { SingleSlotProjectionComponent } from './single-slot-projection/single-slot-projection.component';
 import { CodeDisplayComponent } from './shared/code-display/code-display.component';
+import { SingleSlotExampleComponent } from './blog-examples/single-slot-example/single-slot-example.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CodeDisplayComponent } from './shared/code-display/code-display.compone
     NavLinkComponent,
     HomeComponent,
     SingleSlotProjectionComponent,
-    CodeDisplayComponent
+    CodeDisplayComponent,
+    SingleSlotExampleComponent
   ],
   imports: [
     BrowserModule,
