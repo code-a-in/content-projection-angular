@@ -14,6 +14,10 @@ import { SingleSlotExampleComponent } from './blog-examples/single-slot-example/
 import { MultiSlotCardComponent } from './shared/multi-slot-card/multi-slot-card.component';
 import { MultiSlotProjectionComponent } from './multi-slot-projection/multi-slot-projection.component';
 import { MultiSlotExampleComponent } from './blog-examples/multi-slot-example/multi-slot-example.component';
+import { TabComponent } from './shared/tab/tab.component';
+import { TabExampleComponent } from './blog-examples/tab-example/tab-example.component';
+import { ModalComponent } from './shared/modal/modal.component';
+import { ModalExampleComponent } from './blog-examples/modal-example/modal-example.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { MultiSlotExampleComponent } from './blog-examples/multi-slot-example/mu
     SingleSlotExampleComponent,
     MultiSlotCardComponent,
     MultiSlotProjectionComponent,
-    MultiSlotExampleComponent
+    MultiSlotExampleComponent,
+    TabComponent,
+    TabExampleComponent,
+    ModalComponent,
+    ModalExampleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,18 @@
+.tabs {
+    display: flex;
+    align-items: center;
+
+    .tab {
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+
+        &.active {
+            background-color: blue;
+            color: white;
+        }
+    }
+}
+
+.tab-content {
+    margin-top: 1rem;
+}

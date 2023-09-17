@@ -1,0 +1,14 @@
+<div class="tabs">
+    <div class="tab" [class.active]="activeTab === 1" (click)="activeTab = 1">
+        <ng-content select="[tab-1]"></ng-content>
+    </div>
+    <div class="tab" [class.active]="activeTab === 2" (click)="activeTab = 2">
+        <ng-content select="[tab-2]"></ng-content>
+    </div>
+</div>
+<div class="tab-content" *ngIf="activeTab === 1">
+    <ng-content select="[tab-1-content]"></ng-content>
+</div>
+<div class="tab-content" *ngIf="activeTab === 2">
+    <ng-content select="[tab-2-content]"></ng-content>
+</div>
